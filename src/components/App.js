@@ -49,6 +49,7 @@ const App = props => {
     return () => {
       mounted = false;
     };
+    // eslint-disable-next-line
   }, heros);
 
   const clickHandler = value => {
