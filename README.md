@@ -155,4 +155,4 @@ i would like to thanks  [Raphael Cordeiro](https://github.com/phalado) for conen
 [hero-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/hero-screen.png
 
 <!-- Video -->
-[video]: 
+[video]: https://www.loom.com/share/90b44dea608f4cb7903ca4436366a733
