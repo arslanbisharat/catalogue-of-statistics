@@ -8,10 +8,10 @@
 .header-button {
   border: none;
   background: none;
-  font-family: 'batfont';
+  font-family: 'Arial';
   font-size: 20px;
   width: 300px;
-  background-color: black;
+  background-color: rgb(5, 92, 126);
   color: white;
   height: 50px;
 }
