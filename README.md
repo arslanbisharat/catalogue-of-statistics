@@ -118,13 +118,24 @@ To create this project I used:
 - Use linters (code standards)![mast][mast]
 - Maintain professional Github repos![mast[mast]
 
+
+## Contact
+
+**Arslan Bisharat**
+
+- Github: [@githubhandle](https://github.com/arslanbisharat)
+- Twitter: [@twitterhandle](https://twitter.com/arslan_bisharat-2020bb156)
+- Linkedin: [linkedin](https://www.linkedin.com/in/muhammad-arslan)
+
 ## Acknowledgments
 
 [Microverse][mcvs]
 
 I have no business rights about the characters used in this catalog. This is only for learning purposes. All characters belong to [DC Comics][dc-comics].
 
+## Credit
 
+i would like to thanks  [Raphael Cordeiro](https://github.com/phalado) for conents used in this project.
 
 
 <!-- Links -->
