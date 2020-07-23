@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import './Header.css';
 
 const Header = props => {
   const { title } = props;
@@ -14,7 +13,7 @@ const Header = props => {
           type="button"
           className="header-button"
         >
-          Change filter
+          Click here to change filter
         </button>
       </Link>
       <Link to="/about">

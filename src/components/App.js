@@ -1,112 +1,92 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
+import axios from 'axios';
 import PropTypes from 'prop-types';
-import './App.css';
 import HeroesList from '../containers/HeroesList';
 import HeroFile from './HeroFile';
-// eslint-disable-next-line import/extensions
-import TeamsList from '../containers/TeamsList.js';
+import TeamsList from '../containers/TeamsList';
+import Home from './Home';
+import About from './About';
+import './App.css';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.handleAddHero = this.handleAddHero.bind(this);
-    this.handleClick = this.handleClick.bind(this);
-    this.clickHandler = this.clickHandler.bind(this);
-    this.state = {
-      heroes: [],
-    };
-  }
+const App = props => {
+  const [heros, setHeros] = useState();
+  const {
+    chngFilter, heroes, filter, addNewHero,
+  } = props;
 
-  componentDidMount() {
-    fetch('https://superheroapi.com/api.php/712746822625804/search/_')
-      .then(res => res.json())
-      .then(json => {
-        this.setState({
-          heroes: json.results.filter(heroes => heroes.biography.publisher === 'DC Comics'
+  const handleAddHero = () => {
+    if (heros) {
+      heros.heroes.forEach(value => {
+        addNewHero(value);
+      });
+    }
+  };
+
+  useEffect(() => {
+    let mounted = true;
+
+    const loadHeroes = async () => {
+      const response = await axios.get('https://superheroapi.com/api.php/2602016920125978/search/_');
+
+      if (mounted) {
+        setHeros({
+          heroes: response.data.results.filter(heroes => heroes.biography.publisher === 'DC Comics'
             || heroes.biography.publisher === 'Superman Prime One-Million'
             || heroes.biography.publisher === 'Black Racer'),
         });
-      })
-      .then(this.handleAddHero);
-  }
 
-  handleAddHero() {
-    const { addNewHero } = this.props;
-    const { heroes } = this.state;
-    heroes.forEach(hero => {
-      addNewHero(hero);
-    });
-  }
+        handleAddHero();
+      }
+    };
 
-  handleClick() {
-    const { changeRender } = this.props;
-    changeRender('heroesList');
-  }
+    loadHeroes();
 
-  clickHandler(value, render) {
-    const { chngFilter, changeRender } = this.props;
+    return () => {
+      mounted = false;
+    };
+  }, heros);
+
+  const clickHandler = value => {
     chngFilter(value);
-    changeRender(render);
-  }
+  };
 
-  render() {
-    const { render } = this.props;
-
-    if (render === 'init') {
-      return (
-        <div className="App">
-          <div id="init">
-            <h1 className="app-title">Welcome! Lets Go to DC-GAME country</h1>
-            <button
-              type="submit"
-              onClick={this.handleClick}
-              className="app-button"
-            >
-              CLICK HERE!
-            </button>
-          </div>
-        </div>
-      );
-    }
-
-    if (render === 'heroesList') {
-      return (
-        <div className="App">
-          <HeroesList />
-        </div>
-      );
-    }
-
-    if (render === 'teamsList') {
-      return (
-        <div className="App">
-          <TeamsList />
-        </div>
-      );
-    }
-
-    if (render === 'heroFile') {
-      const { heroes, filter } = this.props;
-      return (
-        <div className="App">
-          <HeroFile
-            hero={heroes.filter(hero => hero.id === filter.value[1])[0]}
-            filter={filter}
-            handleClick={this.clickHandler}
-          />
-        </div>
-      );
-    }
-
-    return null;
-  }
-}
+  return (
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/heroesList">
+            <HeroesList />
+          </Route>
+          <Route path="/teamsList">
+            <TeamsList />
+          </Route>
+          <Route path="/heroFile/:id">
+            <HeroFile
+              hero={heroes.filter(hero => hero.id === filter.value[1])[0]}
+              filter={filter}
+              handleClick={clickHandler}
+            />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+  );
+};
 
 App.propTypes = {
   addNewHero: PropTypes.func.isRequired,
-  changeRender: PropTypes.func.isRequired,
   chngFilter: PropTypes.func.isRequired,
-  render: PropTypes.string.isRequired,
   heroes: PropTypes.arrayOf(PropTypes.object).isRequired,
   filter: PropTypes.shape({
     value: PropTypes.arrayOf(PropTypes.oneOfType([

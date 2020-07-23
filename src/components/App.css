@@ -8,11 +8,13 @@
 }
 
 .app-button {
-  background-color: rgb(6, 116, 131);
-  color: white;
+  background-color: rgb(18, 231, 231);
+  border-radius: 2px;
+  color: black;
   width: 30%;
   height: 25%;
-  font-size: 50px;
+  font-size: 3.5rem;
+  font-weight: bold;
   font-family: 'Arial';
-  margin-top: 10vh;
+  margin-top: 15vh;
 }

@@ -2,13 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Header from './Header';
-import HeroRadar from './HeroRadar';
-import './HeroFile.css';
 
 const HeroFile = props => {
-  const { hero, filter, handleClick } = props;
+  const { heroes, filter, handleClick } = props;
+  const hero = heroes.filter(hero => hero.id === filter.value[1])[0];
   const {
-    name, image, identity, chart, filiation, alignment,
+    name, image, identity, filiation, alignment,
   } = hero;
 
   const clickHandler = (value, render) => {
@@ -51,12 +50,6 @@ const HeroFile = props => {
             })}
           </ul>
         </div>
-        <div id="powerstats" className="hero-chart">
-          <HeroRadar
-            chart={chart}
-            size={400}
-          />
-        </div>
       </div>
     </div>
   );
@@ -65,21 +58,17 @@ const HeroFile = props => {
 HeroFile.propTypes = {
   handleClick: PropTypes.func.isRequired,
   filter: PropTypes.shape({
+    value: PropTypes.arrayOf(PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.number,
+    ])),
     filiation: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
-  hero: PropTypes.shape({
-    id: PropTypes.string,
-    name: PropTypes.string,
-    identity: PropTypes.string,
-    image: PropTypes.string,
-    chart: PropTypes.objectOf(PropTypes.string),
-    filiation: PropTypes.arrayOf(PropTypes.string),
-    alignment: PropTypes.string,
-  }),
+  heroes: PropTypes.arrayOf(PropTypes.object),
 };
 
 HeroFile.defaultProps = {
-  hero: null,
+  heroes: null,
 };
 
 export default HeroFile;

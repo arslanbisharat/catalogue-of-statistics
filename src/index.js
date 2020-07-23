@@ -27,13 +27,13 @@ const initialState = {
       'Suicide Squad',
       'Birds of Prey',
       'Justice Society of America',
-      'Batman Family',
+      'Arial Family',
       'Outsiders',
       'Sinestro Corps',
       'Watchmen',
       'Young Justice',
       'League of Assassins',
-      'Batman Incorporated',
+      'Legion of Super-Heroes',
       'Justice League Unlimited',
       'Team Arrow',
       'Justice League International',
@@ -44,7 +44,6 @@ const initialState = {
       'neutral',
     ],
   },
-  render: 'init',
 };
 
 const store = createStore(
