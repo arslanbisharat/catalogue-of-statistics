@@ -96,27 +96,36 @@ To create this project I used:
 
 ## Technical Objectives
 
-- Use JSX syntax correctly[mast]
-- Pass info to components using props with validation[mast]
-- Use React components lifecycle methods[mast]
-- Use DOM events listeners in components[mast]
-- Use lifting to pass state from children to parent components[mast]
-- Use client side routes[mast]
-- Design a components structure for a website[mast]
-- Test React code[mast]
-- Use Redux store to keep state[mast]
-- Explains data flow in Redux[mast]
-- Connects Redux to React app (includes map state and dispatch to props)[mast]
-- Explains when Redux is useful in your SPA and what value it provides you[mast]
-- Explain React and virtual DOM concepts[mast]
-- Passion for software development.[mast]
-- Ability to translate business requirements into software solutions.[mast]
-- Ability to multitask and effectively manage time and prioritization.[mast]
-- Strong English written communication[mast]
-- Strong English verbal communication[mast]
-- Deploy apps (Heroku, Netlify)[mast]
-- Use linters (code standards)[mast]
-- Maintain professional Github repos[mast]
+- Use JSX syntax correctly![mast]
+- Pass info to components using props with validation![mast][mast]
+- Use React components lifecycle methods ![mast][mast]
+- Use DOM events listeners in components![mast][mast]
+- Use lifting to pass state from children to parent components![mast][mast]
+- Use client side routes![mast][mast]
+- Design a components structure for a website![mast][mast]
+- Test React code![mast][mast]
+- Use Redux store to keep state![mast][mast]
+- Explains data flow in Redux![mast][mast]
+- Connects Redux to React app (includes map state and dispatch to props)![mast][mast]
+- Explains when Redux is useful in your SPA and what value it provides you![mast][mast]
+- Explain React and virtual DOM concepts![mast][mast]
+- Passion for software development.![mast][mast]
+- Ability to translate business requirements into software solutions.![mast][mast]
+- Ability to multitask and effectively manage time and prioritization.![mast][mast]
+- Strong English written communication![mast][mast]
+- Strong English verbal communication![mast][mast]
+- Deploy apps (Heroku, Netlify)![mast][mast]
+- Use linters (code standards)![mast][mast]
+- Maintain professional Github repos![mast[mast]
+
+
+## Contact
+
+**Arslan Bisharat**
+
+- Github: [@githubhandle](https://github.com/arslanbisharat)
+- Twitter: [@twitterhandle](https://twitter.com/arslan_bisharat-2020bb156)
+- Linkedin: [linkedin](https://www.linkedin.com/in/muhammad-arslan)
 
 ## Acknowledgments
 
@@ -124,7 +133,9 @@ To create this project I used:
 
 I have no business rights about the characters used in this catalog. This is only for learning purposes. All characters belong to [DC Comics][dc-comics].
 
+## Credit
 
+i would like to thanks  [Raphael Cordeiro](https://github.com/phalado) for conents used in this project.
 
 
 <!-- Links -->
@@ -141,7 +152,7 @@ I have no business rights about the characters used in this catalog. This is onl
 [init-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/init-screen.png
 [team-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/team-screen.png
 [filter-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/filter-screen.png
-[hero-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/filter-screen.png
+[hero-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/hero-screen.png
 
 <!-- Video -->
 [video]: 
