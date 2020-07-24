@@ -94,6 +94,29 @@ To create this project I used:
 * Possibility to pin your favourite Heroes/Villains
 * Add more data about the characters
 
+## Technical Objectives
+
+- Use JSX syntax correctly[mast]
+- Pass info to components using props with validation[mast]
+- Use React components lifecycle methods[mast]
+- Use DOM events listeners in components[mast]
+- Use lifting to pass state from children to parent components[mast]
+- Use client side routes[mast]
+- Design a components structure for a website[mast]
+- Test React code[mast]
+- Use Redux store to keep state[mast]
+- Explains data flow in Redux[mast]
+- Connects Redux to React app (includes map state and dispatch to props)[mast]
+- Explains when Redux is useful in your SPA and what value it provides you[mast]
+- Explain React and virtual DOM concepts[mast]
+- Passion for software development.[mast]
+- Ability to translate business requirements into software solutions.[mast]
+- Ability to multitask and effectively manage time and prioritization.[mast]
+- Strong English written communication[mast]
+- Strong English verbal communication[mast]
+- Deploy apps (Heroku, Netlify)[mast]
+- Use linters (code standards)[mast]
+- Maintain professional Github repos[mast]
 
 ## Acknowledgments
 
@@ -114,6 +137,7 @@ I have no business rights about the characters used in this catalog. This is onl
 [mcvs]: https://www.microverse.org/
 
 <!-- Images -->
+[mast]: https://raw.githubusercontent.com/phalado/JS-Capstone/development/Images/masteryBadge.png
 [init-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/init-screen.png
 [team-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/team-screen.png
 [filter-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/filter-screen.png
