@@ -114,10 +114,10 @@ I have no business rights about the characters used in this catalog. This is onl
 [mcvs]: https://www.microverse.org/
 
 <!-- Images -->
-[init-screen]: https://raw.githubusercontent.com/arslanbisharat/catalouge-of-statistics/develop/public/content/init-screen.png
-[team-screen]: https://raw.githubusercontent.com/arslanbisharat/catalouge-of-statistics/develop/public/content/team-screen.png
-[filter-screen]: https://raw.githubusercontent.com/arslanbisharat/catalouge-of-statistics/develop/public/content/filter-screen.png
-[hero-screen]: https://raw.githubusercontent.com/arslanbisharat/catalouge-of-statistics/develop/public/content/hero-screen.png
+[init-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/init-screen.png
+[team-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/team-screen.png
+[filter-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/filter-screen.png
+[hero-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/filter-screen.png
 
 <!-- Video -->
 [video]: 
