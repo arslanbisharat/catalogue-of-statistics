@@ -82,7 +82,7 @@ To create this project I used:
 * [Superhero API][superhero-API]
 * [React SVG Radar Chart][react-radar-chart]
 * Github
-* Heroku
+* Netlify
 
 ## Video presentation
 
@@ -106,7 +106,7 @@ I have no business rights about the characters used in this catalog. This is onl
 
 <!-- Links -->
 [assignment]: https://www.notion.so/Catalogue-of-Statistics-72446e7fa33c403a9b6a0bc1de5c6cf5
-[live-version]: https://comic-game.herokuapp.com/
+[live-version]: https://comic-game.netlify.app/
 [superhero-API]: https://www.superheroapi.com/
 [tower-of-babel]: https://dc.fandom.com/wiki/JLA:_Tower_of_Babel
 [react-radar-chart]: https://www.npmjs.com/package/react-svg-radar-chart
