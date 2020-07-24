@@ -6,7 +6,7 @@ ul {
 button {
   border: none;
   font-weight: bold;
-  font-family: 'Arial';
+  font-family: 'Arial', 'sans-serif';
   font-size: 1.5rem;
   background: none;
   color: blue;
@@ -29,10 +29,6 @@ button {
   width: 100%;
 }
 
-.axis {
-  stroke: 0.3;
-}
-
 .scale {
   stroke: black;
   stroke-width: 0.3;
@@ -50,6 +46,6 @@ button {
   }
 
   .hero-chart {
-    width: 100%
+    width: 100%;
   }
 }
