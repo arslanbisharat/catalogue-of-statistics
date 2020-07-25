@@ -14,7 +14,6 @@ In this project, I build a catalog of DC Comic's main characters using React and
   - [The catalog](#the-catalog)
     - [How to open](#how-to-open)
     - [Technologies used](#technologies-used)
-  - [Video presentation](#video-presentation)
   - [Future work](#future-work)
   - [Technical Objectives](#Technical-Objectives)
   - [Contact](#contact)
@@ -84,10 +83,6 @@ To create this project I used:
 * Github
 * Netlify
 
-## Video presentation
-
-[Video]
-
 ## Future work
 
 * Mobile version with React Native
@@ -149,10 +144,8 @@ i would like to thanks  [Raphael Cordeiro](https://github.com/phalado) for conen
 
 <!-- Images -->
 [mast]: https://raw.githubusercontent.com/phalado/JS-Capstone/development/Images/masteryBadge.png
-[init-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/init-screen.png
-[team-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/team-screen.png
-[filter-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/filter-screen.png
-[hero-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/public/content/hero-screen.png
+[init-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/src/content/init-screen.png
+[team-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/src/content/team-screen.png
+[filter-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/src/content/filter-screen.png
+[hero-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/src/content/hero-screen.png
 
-<!-- Video -->
-[video]: 
