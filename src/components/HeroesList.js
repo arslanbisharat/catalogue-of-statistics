@@ -35,7 +35,7 @@ const HeroesList = props => {
   return (
     <div className="heroes-list">
       <div>
-        <h1 className="fetchingH1">Fetching data</h1>
+        <h1 className="fetchingH1">Fetching data.....</h1>
         <h2 className="fetchingH2">Please wait</h2>
       </div>
     </div>
