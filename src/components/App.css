@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.app-title {
+  margin-top: 10vh;
+  font-size: 4rem;
+}
+
+.app-button {
+  background-color: rgb(18, 231, 231);
+  border-radius: 2px;
+  color: black;
+  width: 30%;
+  height: 25%;
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 15vh;
+}
