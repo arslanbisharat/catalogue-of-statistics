@@ -17,6 +17,7 @@ In this project, I build a catalog of DC Comic's main characters using React and
   - [Video presentation](#video-presentation)
   - [Future work](#future-work)
   - [Technical Objectives](#Technical-Objectives)
+  - [Contributing](#Contributing)
   - [Contact](#contact)
   - [Acknowledgments](#acknowledgments)
 
@@ -117,6 +118,18 @@ To create this project I used:
 - Deploy apps (Heroku, Netlify)![mast][mast]
 - Use linters (code standards)![mast][mast]
 - Maintain professional Github repos![mast[mast]
+## Contributing
+
+:handshake: Contributions, issues and feature requests are welcome! 
+Start by:
+
+    1. Forking the project
+    2. Cloning the project to your local machine
+    3. cd into the project directory
+    4. Run git checkout -b your-branch-name
+    5. Make your contributions
+    6. Push your branch up to your forked repository
+    7. Open a Pull Request with a detailed description to the development branch of the original project for a review
 
 
 ## Contact
