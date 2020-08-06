@@ -14,7 +14,6 @@ In this project, I build a catalog of DC Comic's main characters using React and
   - [The catalog](#the-catalog)
     - [How to open](#how-to-open)
     - [Technologies used](#technologies-used)
-  - [Video presentation](#video-presentation)
   - [Future work](#future-work)
   - [Technical Objectives](#Technical-Objectives)
   - [Contributing](#Contributing)
@@ -84,10 +83,6 @@ To create this project I used:
 * [React SVG Radar Chart][react-radar-chart]
 * Github
 * Netlify
-
-## Video presentation
-
-[Video]
 
 ## Future work
 
@@ -166,6 +161,3 @@ i would like to thanks  [Raphael Cordeiro](https://github.com/phalado) for conen
 [team-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/src/content/team-screen.png
 [filter-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/src/content/filter-screen.png
 [hero-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/src/content/hero-screen.png
-
-<!-- Video -->
-[video]: 
