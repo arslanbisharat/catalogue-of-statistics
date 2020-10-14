@@ -161,3 +161,6 @@ i would like to thanks  [Raphael Cordeiro](https://github.com/phalado) for conen
 [team-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/src/content/team-screen.png
 [filter-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/src/content/filter-screen.png
 [hero-screen]: https://github.com/arslanbisharat/catalogue-of-statistics/blob/working/src/content/hero-screen.png
+
+### License
+This project is [MIT](https://github.com/arslanbisharat/catalogue-of-statistics/blob/development/LICENSE) licensed. 
