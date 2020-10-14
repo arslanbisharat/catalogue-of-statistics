@@ -92,27 +92,27 @@ To create this project I used:
 
 ## Technical Objectives
 
-- Use JSX syntax correctly![mast]
-- Pass info to components using props with validation![mast][mast]
-- Use React components lifecycle methods ![mast][mast]
-- Use DOM events listeners in components![mast][mast]
-- Use lifting to pass state from children to parent components![mast][mast]
-- Use client side routes![mast][mast]
-- Design a components structure for a website![mast][mast]
-- Test React code![mast][mast]
-- Use Redux store to keep state![mast][mast]
-- Explains data flow in Redux![mast][mast]
-- Connects Redux to React app (includes map state and dispatch to props)![mast][mast]
-- Explains when Redux is useful in your SPA and what value it provides you![mast][mast]
-- Explain React and virtual DOM concepts![mast][mast]
-- Passion for software development.![mast][mast]
-- Ability to translate business requirements into software solutions.![mast][mast]
-- Ability to multitask and effectively manage time and prioritization.![mast][mast]
-- Strong English written communication![mast][mast]
-- Strong English verbal communication![mast][mast]
-- Deploy apps (Heroku, Netlify)![mast][mast]
-- Use linters (code standards)![mast][mast]
-- Maintain professional Github repos![mast[mast]
+- Use JSX syntax correctly
+- Pass info to components using props with validation
+- Use React components lifecycle methods 
+- Use DOM events listeners in components
+- Use lifting to pass state from children to parent components
+- Use client side routes
+- Design a components structure for a website
+- Test React code
+- Use Redux store to keep state
+- Explains data flow in Redux
+- Connects Redux to React app (includes map state and dispatch to props)
+- Explains when Redux is useful in your SPA and what value it provides you
+- Explain React and virtual DOM concepts
+- Passion for software development.
+- Ability to translate business requirements into software solutions.
+- Ability to multitask and effectively manage time and prioritization.
+- Strong English written communication
+- Strong English verbal communication
+- Deploy apps (Heroku, Netlify)
+- Use linters (code standards)
+- Maintain professional Github repos
 ## Contributing
 
 :handshake: Contributions, issues and feature requests are welcome! 
