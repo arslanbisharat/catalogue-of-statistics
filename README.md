@@ -34,7 +34,7 @@ Repository: https://github.com/arslanbisharat/catalogue-of-statistics
 
 ## The catalog
 
-For this project I hacked DC Games database and got some data from the main heroes and villains - you can't be the a real hero if you are not prepared for each hero or villain. For my bad luck, after [the Tower of Babel][tower-of-babel] the bat made it difficult to get data, so I wasn't able to get the character's powers and weaknesses, but I was able to get their name, identity, filiations, a photo and some stats that I converted to a power chart using [React SVG Radar Chart][react-radar-chart].
+For this project I hacked the DC Games database and got some data from the main heroes and villains - you can't be a real hero if you are not prepared for each hero or villain. For my bad luck, after [the Tower of Babel][tower-of-babel] the bat made it difficult to get data, so I wasn't able to get the character's powers and weaknesses, but I was able to get their name, identity, filiations, a photo and some stats that I converted to a power chart using [React SVG Radar Chart][react-radar-chart].
 
 To hide from the world's greatest detective I had to use a fake server to store the data. When you open the catalog the React APP downloads the data from the server using an API and stores it in the Redux store.
 
@@ -42,22 +42,22 @@ The first page showed is just an introductory page.
 
 ![init-screen][init-screen]
 
-When you click the button will be rendered the Justice League of America's filtered page, showing it's heroes. It's an example of the characters filtered by filiation.
+When you click the button will be rendered the Justice League of America's filtered page, showing its heroes. It's an example of the characters filtered by filiation.
 
 ![team-screen][team-screen]
 
- You can click in the hero to see its data. Interesting pointing that, if you click in a filiation in blue the will be rendered that team's members.
+ You can click on the hero to see its data. Interesting pointing that, if you click in a filiation in blue the will be rendered that team's members.
 
 ![hero-screen][hero-screen]
 
-Finally, you can click in the button in the header to see the possible filters, being possible to filter by alignment - good, bad or neutral - by several teams of heroes or villains or, if you prefer, click in the name of any character to see its data.
+Finally, you can click on the button in the header to see the possible filters, being possible to filter by alignment - good, bad, or neutral - by several teams of heroes or villains or, if you prefer, click in the name of any character to see its data.
 
 ![filter-screen][filter-screen]
 
 
 ### How to open
 
-You can open the catalog online clicking [here][live-version] or locally following these steps:
+You can open the catalog online by clicking [here][live-version] or locally following these steps:
 
 * Click on the green button "Clone or Download"
 * Click on Download ZIP
@@ -87,7 +87,7 @@ To create this project I used:
 ## Future work
 
 * Mobile version with React Native
-* Possibility to pin your favourite Heroes/Villains
+* Possibility to pin your favorite Heroes/Villains
 * Add more data about the characters
 
 ## Technical Objectives
@@ -95,10 +95,10 @@ To create this project I used:
 - Use JSX syntax correctly
 - Pass info to components using props with validation
 - Use React components lifecycle methods 
-- Use DOM events listeners in components
+- Use DOM events, listeners, in components
 - Use lifting to pass state from children to parent components
-- Use client side routes
-- Design a components structure for a website
+- Use client-side routes
+- Design the structure of a component for a website
 - Test React code
 - Use Redux store to keep state
 - Explains data flow in Redux
@@ -112,10 +112,10 @@ To create this project I used:
 - Strong English verbal communication
 - Deploy apps (Heroku, Netlify)
 - Use linters (code standards)
-- Maintain professional Github repos
+- Maintain professional Github Repos
 ## Contributing
 
-:handshake: Contributions, issues and feature requests are welcome! 
+:handshake: Contributions, issues, and feature requests are welcome! 
 Start by:
 
     1. Forking the project
@@ -139,11 +139,11 @@ Start by:
 
 [Microverse][mcvs]
 
-I have no business rights about the characters used in this catalog. This is only for learning purposes. All characters belong to [DC Comics][dc-comics].
+I have no business rights to the characters used in this catalog. This is only for learning purposes. All characters belong to [DC Comics][dc-comics].
 
 ## Credit
 
-i would like to thanks  [Raphael Cordeiro](https://github.com/phalado) for conents used in this project.
+I would like to thanks  [Raphael Cordeiro](https://github.com/phalado) for the contents used in this project.
 
 
 <!-- Links -->
